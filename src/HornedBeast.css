@@ -1,0 +1,51 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+body {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 77%, rgba(252,176,69,1) 100%);
+}
+.card {
+  margin: 10px;
+  color: white;
+}
+
+.btn.btn-outline-danger{
+  color: white;
+  background-color: hotpink;
+}
+
+.card-body {
+  background-color: purple;
+  
+}
+
+.modal-header {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 77%, rgba(252,176,69,1) 100%);
+  color: white;
+}
+
+.modal-body {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 77%, rgba(252,176,69,1) 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 77%, rgba(252,176,69,1) 100%);
+  color: white;
+}
